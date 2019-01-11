@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="bootstrap template">  <!--Description for search engine-->
+    <meta name="keywords" content="HTML,CSS,SCSS,JavaScript,Bootstrap"> <!--keywords for search engine-->
+    <meta name="author" content="Andy Basyn">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no"> <!--Scale viewport "shrink-to-fit"default yes => can zoom on mobile if no,you can no longer zoom-->
+    <link rel="icon" href="#" type="image/gif" sizes="16x16">
+    <!--bootstrap.min.css-->
+    <link rel="stylesheet" href="bootstrap-4.1.3/css/bootstrap.min.css">
+    <!--style.css-->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!--FONT AWESOME-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <!--inulr-->
+    <title>nav</title>
+</head>
+<body class="container-fluid">
+<div class="col-12 col-lg-10 offset-lg-1">
+    <div class="row">
+        <div class="s3-sidemenu-wrap col-lg-3">
+            <!--side bar start-->
+            <aside class="s3-side-bar s3-background-darkblue" style="height: 100vh;">
+
+
+                <ul class="list-group list-group-flush pt-lg-5">
+                    <li class="s3-list-style-none list-group-item s3-background-darkblue s3-sidemenu-item">
+                        <a href="calendar.html" class="text-white text-capitalize s3-text-deco-none d-block text-center s3-text-deco-none"><span><i class="fas fa-calendar-alt s3-text-lightblue"></i></span> calendar</a>
+                    </li>
+                    <li class="s3-list-style-none list-group-item s3-background-darkblue s3-sidemenu-item">
+                        <a href="users.html" class="text-white text-capitalize s3-text-deco-none d-block text-center s3-text-deco-none"><span><i class="far fa-user s3-text-lightblue"></i></span> users</a>
+                    </li>
+                </ul>
+            </aside>
+            <!--side bar stop-->
+        </div>
+        <div class="col-12 s3-content-wrap">
+            <header>
+                <!--start nav-->
+                <nav class="navbar navbar-expand-lg navbar-light bg-white">
+
+                    <div class="row w-100">
+
+
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+
+
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav w-100">
+                                <!--side bar collapse toggle-->
+                                <li class="nav-item  pt-3 d-none d-lg-block">
+                                    <a class="nav-link s3-toggleSideMenu" href="#"><i class="fas fa-bars scr3-text-darkblue"></i></a>
+                                </li>
+                                <!--search link-->
+                                <li class="nav-item pt-3  mx-auto mx-lg-0 d-flex flex-lg-grow-1">
+                                    <a href="search.html" class="nav-link"><i class="s3-text-darkblue fas fa-search"></i></a>
+                                </li>
+                                <!--view messages-->
+                                <li class="nav-item pt-3 ml-lg-auto mx-auto mx-lg-0 position-relative">
+                                    <a class="nav-link" href="#messages"><i class="s3-text-darkblue fas fa-envelope"></i></a>
+                                    <!--counter-->
+                                    <div class="s3-message-count position-absolute bg-primary border border-white"><p class="text-white text-center">1</p></div>
+                                </li>
+                                <!--view notifications-->
+                                <li class="nav-item pt-3 ml-lg-auto mx-auto mx-lg-0 position-relative">
+                                    <a class="nav-link" href="#meldingen"><i class="s3-text-darkblue fas fa-bell"></i></a>
+                                    <!--counter-->
+                                    <div class="s3-notification-count position-absolute bg-primary border border-white"><p class="text-white text-center">1</p></div>
+                                </li>
+
+                                <!--profile dropdown start-->
+                                <li class="nav-item dropdown ml-lg-auto mx-auto mx-lg-0">
+                                    <a class="nav-link dropdown-toggle " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <span><img src="assets/images/profilepic.png" alt="profile" class="img-fluid ml-auto"></span>
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item text-capitalize text-dark" href="settings.html">settings</a>
+                                        <!--add additional options here (above the divider)-->
+                                        <!--<a class="dropdown-item text-capitalize text-dark" href="settings.html">ADDITIONAL OPTION</a>-->
+                                        <div class="dropdown-divider"></div>
+                                        <a class="dropdown-item text-capitalize text-dark" href="logout.html">log out</a>
+                                    </div>
+                                </li>
+                                <!--profile dropdown end-->
+                                <li class="nav-item dropdown ml-lg-auto mx-auto mx-lg-0 d-block d-lg-none">
+                                    <a class="nav-link dropdown-toggle " href="#" id="hamburgerMenuDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <i class="fas fa-bars s3-text-darkblue"></i>
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="hamburgerMenuDropdown">
+                                        <a href="calendar.html" class="text-dark text-capitalize s3-text-deco-none d-block text-center s3-text-deco-none"><span><i class="fas fa-calendar-alt s3-text-lightblue"></i></span> calendar</a>
+                                        <a href="users.html" class="text-dark text-capitalize s3-text-deco-none d-block text-center s3-text-deco-none"><span><i class="far fa-user s3-text-lightblue"></i></span> users</a>
+                                    </div>
+                                </li>
+                            </ul>
+
+                        </div>
+
+                    </div>
+                </nav>
+                <!--end nav-->
+            </header>
+            <main>
+                <!--section met id meldingen & section met id messages-->
+            </main>
+            <footer>
+
+            </footer>
+        </div>
+
+    </div>
+</div>
+
+
+
+    <!--jquery-->
+    <script src="assets/js/jquery.min.js"></script>
+    <!--popper.js-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <!--bootstrap.min.js-->
+    <script src="bootstrap-4.1.3/js/bootstrap.min.js"></script>
+    <!--scripts-->
+    <script src="assets/js/s3-JavaScript.js"></script>
+</body>
+
+</html>
