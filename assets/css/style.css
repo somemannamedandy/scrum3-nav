@@ -47,6 +47,12 @@
 .s3-sidemenu-wrap{
     display:none;
 }
+#s3-toggle-collapse-small{
+    list-style:none;
+}
+#hamburgerMenuDropdownsm::after{
+    display: none;
+}
 /*----------MEDIA QUERIES----------*/
 
 

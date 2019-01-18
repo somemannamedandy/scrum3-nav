@@ -41,11 +41,40 @@
                 <nav class="navbar navbar-expand-lg navbar-light bg-white">
 
                     <div class="row w-100">
+                        <!--nav small start-->
+                        <div class="col-12 d-block d-lg-none">
+                            <li class="nav-item dropdown ml-lg-auto mx-auto mx-lg-0" id="s3-toggle-collapse-small">
+                                <a class="nav-link d-block text-center" role="button"  aria-haspopup="true" aria-expanded="false" data-toggle="collapse" href="#s3-collapse-small" aria-controls="s3-collapse-small">
+                                    <span><img src="assets/images/profilepic.png" alt="profile" class="img-fluid ml-auto mx-auto"></span>
+                                </a>
+                                <div class="d-flex justify-content-center">
+                                    <a href="search.html" class="nav-link"><i class="s3-text-darkblue fas fa-search"></i></a>
+                                    <a class="nav-link" href="#messages"><i class="s3-text-darkblue fas fa-envelope"></i></a>
+                                    <a class="nav-link" href="#meldingen"><i class="s3-text-darkblue fas fa-bell"></i></a>
+                                    <a class="nav-link dropdown-toggle " href="#" id="hamburgerMenuDropdownsm" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <i class="fas fa-bars s3-text-darkblue"></i>
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="hamburgerMenuDropdownsm">
+                                        <a href="calendar.html" class="text-dark text-capitalize s3-text-deco-none d-block text-center s3-text-deco-none"><span><i class="fas fa-calendar-alt s3-text-lightblue"></i></span> calendar</a>
+                                        <a href="users.html" class="text-dark text-capitalize s3-text-deco-none d-block text-center s3-text-deco-none"><span><i class="far fa-user s3-text-lightblue"></i></span> users</a>
+                                    </div>
 
+                                </div>
+                                <div class="collapse" id="s3-collapse-small">
 
-                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                    <!--add additional options here (below the divider)-->
+                                    <!--<a class="dropdown-item text-capitalize text-dark" href="settings.html">ADDITIONAL OPTION</a>-->
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item text-capitalize text-dark text-center" href="settings.html">settings</a>
+                                    <a class="dropdown-item text-capitalize text-dark text-center" href="logout.html">log out</a>
+                                </div>
+                            </li>
+                        </div>
+                        <!--nav small end-->
+
+                        <!--<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
-                        </button>
+                        </button>-->
 
 
                         <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -89,7 +118,7 @@
                                     <a class="nav-link dropdown-toggle " href="#" id="hamburgerMenuDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                         <i class="fas fa-bars s3-text-darkblue"></i>
                                     </a>
-                                    <div class="dropdown-menu" aria-labelledby="hamburgerMenuDropdown">
+                                    <div class="dropdown-menu" aria-labelledby="hamburgerMenuDropdown d-none d-md-block">
                                         <a href="calendar.html" class="text-dark text-capitalize s3-text-deco-none d-block text-center s3-text-deco-none"><span><i class="fas fa-calendar-alt s3-text-lightblue"></i></span> calendar</a>
                                         <a href="users.html" class="text-dark text-capitalize s3-text-deco-none d-block text-center s3-text-deco-none"><span><i class="far fa-user s3-text-lightblue"></i></span> users</a>
                                     </div>
